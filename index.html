@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlbertSebastianK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e160f2d97.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi there..!</p>
+            <h1>I'm <span>Albert Sebastian K.</span><br> Nice to meet you.</h1>
+        </div>
+    </div>
+   </div> 
+    <!------------------about--------------------------------------------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p> A fourth-year BTech student at Christ College of Engineering, specialising in computer science,
+                    possessing strong leadership qualities and interpersonal skills.
+                    I aspire to pursue a career as an engineer dedicated to creating innovative solutions that benefit both society
+                     and the environment. </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+                            <li><span><i class="fa-solid fa-code"></i>&nbsp;&nbsp;Programming</span><br> C, Python, Java, MySQL,openCV.</li><br>
+                            <li><span><i class="fa-solid fa-palette"></i>&nbsp;&nbsp;Creativity</span><br>Canva, Figma, content writing, documentation</li><br>
+                            <li><span><i class="fa-brands fa-html5"></i>&nbsp;&nbsp;Web Development</span><br>HTML,CSS,Javascript,php</li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+
+                        <ul>
+                            <li><span><i class="fa-solid fa-user-tie"></i>&nbsp;&nbsp;Internship</span><br> worked as a robotics engineering intern</li>
+                            <li>(Inker robotics-Thrissur)</li>
+                            
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+
+                        <ul>
+                            <li><span><i class="fa-solid fa-user-graduate"></i>&nbsp;&nbsp;2020-24</span><br>  B.Tech, APJ Abdul Kalam Technological University, Christ College of Engineering</li><br>
+                            <li><span><i class="fa-solid fa-user-graduate"></i>&nbsp;&nbsp;2017-19</span><br> HSE/Plus-Two, Kerala State Board, St.Thomas CHSS, Thrissur</li><br>
+                            <li><span><i class="fa-solid fa-user-graduate"></i>&nbsp;&nbsp;2016-17</span><br>Tenth, Indian Certificate of Secondary Education, Christ Vidyanikethan, Irinjalakuda</li>
+                            
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-------------------------------------------portfolio--------------------------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span>Projects</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3><i class="fa-brands fa-android"></i><br> Automation</h3>
+                    <p>
+                        I am currently engaged in the advancement of an Autonomous Underwater Vehicle (AUV), 
+                        with a specific focus on the development of an image processing module and the implementation of automation using 
+                        the Robot Operating System (ROS). </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3><i class="fa-solid fa-scissors"></i><br>Being Handsome</h3>
+                    <p>Designed and developed a dynamic slot booking website tailored for barbershops, strategically 
+                        addressing customer challenges and mitigating inconveniences experienced during peak hours. 
+                        This solution optimizes the scheduling process, enhancing user experience and operational efficiency
+                         within the barbershop setting.</p>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3><i class="fa-solid fa-location-dot"></i><br>Emergenecy helpdesk</h3>
+                    <p>Engineered an Emergency Helpdesk website as a key project within the scope of our Design Engineering course, 
+                        strategically conceived in response to the challenges posed by the global COVID-19 outbreak</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-----------------------------------contACT----------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Contact Me</span></h1>
+                <p><i class="fa-regular fa-paper-plane"></i>&nbsp;albertsebastiank8@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>&nbsp;+91 9207337045</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/albertsebastiank/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/AlbertSebastianK"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ask8/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="images/Albert Sebastian K.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" onsubmit="return validateForm();">
+                    <input type="text" name="Name" placeholder="Your Name" pattern="[A-Za-z]+" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+            <script>
+                function validateForm() {
+                    var emailInput = document.getElementById("email").value;
+            
+                    // Check if the email is valid using a regular expression
+                    var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+                    if (!emailRegex.test(emailInput)) {
+                        alert("Please enter a valid email address.");
+                        return false; // Prevent form submission
+                    }
+            
+                    // Other validation or form submission logic can be added here if needed.
+            
+                    return true; // Allow form submission
+                }
+            </script>
+            
+        </div>
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; &nbsp;</i>&nbsp;Albert Sebastian K.&nbsp;<i class="fa-solid fa-shield-heart"></i></p>
+    </div>
+   </div>
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }  
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwm1K6jwJHm0niYppgZ6yABhocfY4BdEOCDmnQ7lXlFO9pEBZug51vMWP8YcMaMKqn0eg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") 
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully !"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
